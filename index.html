@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>&lt;model-viewer&gt; example</title>
+    <title>AR 3D Food Menu</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,7 @@
         <h1>WRAP</h1>
         <span>Free of cost</a></span>
       </span>
-      <button onclick = "window.location.href='./Ingredients/ing1.html';">&#9432;</button>
+      <button onclick="document.getElementById('id01').style.display='block'" class="btn"><img src="./assets/info.png" alt="buttonpng" border="0" /></button>
     </section>
   </div>
 
@@ -44,7 +44,7 @@
         <h1>cappuccino</h1>
         <span>This also Free</a></span>
       </span>
-      <button onclick = "window.location.href='./Ingredients/ing2.html';">&#9432;</button>
+      <button onclick="document.getElementById('id02').style.display='block'" class="btn"><img src="./assets/info.png" alt="buttonpng" border="0" /></button>
     </section>
   </div>
   
@@ -62,7 +62,7 @@
         <h1>borgir combo</h1>
         <span>Please Pay</a></span>
       </span>
-      <button onclick = "window.location.href='./ing.html';">&#9432;</button>
+      <button onclick="document.getElementById('id03').style.display='block'" class="btn"><img src="./assets/info.png" alt="buttonpng" border="0" /></button>
     </section>
   </div>
   
@@ -80,7 +80,7 @@
         <h1>borgir and fries</h1>
         <span>Ahh! yenna!! Pay n Go</a></span>
       </span>
-      <button onclick = "window.location.href='./ing.html';">&#9432;</button>
+      <button onclick="document.getElementById('id04').style.display='block'" class="btn"><img src="./assets/info.png" alt="buttonpng" border="0" /></button>
     </section>
   </div>
   
@@ -98,7 +98,7 @@
         <h1>WRAP</h1>
         <span>this is not your mavana mane pay and get lost</a></span>
       </span>
-      <button onclick = "window.location.href='./ing.html';">&#9432;</button>
+      <button onclick="document.getElementById('id05').style.display='block'" class="btn"><img src="./assets/info.png" alt="buttonpng" border="0" /></button>
     </section>
   </div>
 
@@ -106,11 +106,87 @@
     <span>This is The blah Hotel COME. EAT. GO.</span>
     <span>Eat well Be Well</span>
   </footer>
+
+  <div id="id01" class="modal">
+	  <div class="modal-content">
+	    <div class="container">
+	      <span onclick="document.getElementById('id01').style.display='none'" class="closebtn">&times;</span>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+	       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      <p>1111</p>
+	    </div>
+	  </div>
+	</div>
+	
+	<div id="id02" class="modal">
+	  <div class="modal-content">
+	    <div class="container">
+	      <span onclick="document.getElementById('id02').style.display='none'" class="closebtn">&times;</span>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+	       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      <p>2222</p>
+	    </div>
+	  </div>
+	</div>
   
+  <div id="id03" class="modal">
+	  <div class="modal-content">
+	    <div class="container">
+	      <span onclick="document.getElementById('id03').style.display='none'" class="closebtn">&times;</span>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+	       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      <p>3333</p>
+	    </div>
+	  </div>
+	</div>
+	
+	<div id="id04" class="modal">
+	  <div class="modal-content">
+	    <div class="container">
+	      <span onclick="document.getElementById('id04').style.display='none'" class="closebtn">&times;</span>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+	       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      <p>4444</p>
+	    </div>
+	  </div>
+	</div>
+
+  <div id="id05" class="modal">
+	  <div class="modal-content">
+	    <div class="container">
+	      <span onclick="document.getElementById('id05').style.display='none'" class="closebtn">&times;</span>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+	       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      <p>5555</p>
+	    </div>
+	  </div>
+	</div>
+	
+	<div id="id06" class="modal">
+	  <div class="modal-content">
+	    <div class="container">
+	      <span onclick="document.getElementById('id06').style.display='none'" class="closebtn">&times;</span>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+	       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      <p>6666</p>
+	    </div>
+	  </div>
+	</div>
 
   <script type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewed.min.js">
-
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
   </script>
 </body>
 </html>
